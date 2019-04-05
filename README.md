@@ -1,12 +1,15 @@
 # SWIGGY6-CRICBUZZ-NOTIFIER
-More info about the offer : [SWIGGY6 COUPON](https://6.swiggy.com/)
+
 An app that notifies (and alarms ) whenever a 6 is hit in a cricket match. (Tested on Ubuntu 18.04).
+
+### More info about the swiggy offer : 
+[SWIGGY6 COUPON](https://6.swiggy.com/)
 
 ## Getting Started
 
 **Very simple to set up**
 
-**This project was build hurriedly for fun and hasn't been tested for robustness, so follow the instruction exactly as provided**
+**Follow the instruction exactly as provided**
 
 These instructions will get this project running on your machine.
 
