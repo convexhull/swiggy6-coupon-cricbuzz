@@ -15,7 +15,7 @@ console.log("Cool ! Will inform you once a 6 is hit in the match");
   
 
 
-setInterval( callback, 30000);
+setInterval( callback, 20000);
 
 
 
@@ -37,7 +37,7 @@ function callback() {
                 })
                 setTimeout(() => {
                     audio.kill();
-                },29000)
+                },19900)
             }
         })
         .catch( e => {
