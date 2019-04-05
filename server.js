@@ -6,6 +6,10 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
+if(!process.env.match_id) {
+    console.log("Please enter a match_id in the .env");
+    process.exit(0);
+}
 
 console.log("Cool ! Will inform you once a 6 is hit in the match");
   
