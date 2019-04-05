@@ -15,23 +15,24 @@ These instructions will get this project running on your machine.
 ### Setting up the .env
 
 Follow these steps  **once the match is live**  : 
-```
+
 1. Go to Cricbuzz website.
 2. Open the live score page of the match you wanna keep an eye on. 
 3. Copy the match id from the address bar as highlighted in the following images. 
-4. Set `match_id` in the `.env` to this value. ( in this case it is 22411 ) .
+4. Set `match_id` in the `.env` to this value. ( in this case it is `22411` ) .
+
+
+![alt text](https://raw.githubusercontent.com/convexhull/swiggy6-coupon-cricbuzz/master/image2.png)
+
+
+
+![alt text](https://raw.githubusercontent.com/convexhull/swiggy6-coupon-cricbuzz/master/image1.png)
+
 
 
 (Optional) If you want to change the alarmtone :
 1. Copy the mp3 file to the project folder.
 2. Modify the `alarmTone` variable in the `.env` file with the path of the mp3 file.
-```
-
-![alt text](https://raw.githubusercontent.com/convexhull/swiggy6-coupon-cricbuzz/master/image1.png)
-
-
-![alt text](https://raw.githubusercontent.com/convexhull/swiggy6-coupon-cricbuzz/master/image2.png)
-
 
 
 ### Steps
