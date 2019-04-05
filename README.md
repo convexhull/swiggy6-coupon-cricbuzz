@@ -1,21 +1,30 @@
 # SWIGGY6-CRICBUZZ-NOTIFIER
-
+More info about the offer : [SWIGGY6 COUPON](https://6.swiggy.com/)
 An app that notifies (and alarms ) whenever a 6 is hit in a cricket match. (Tested on Ubuntu 18.04).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine.
+**Very simple to set up**
+
+**This project was build hurriedly for fun and hasn't been tested for robustness, so follow the instruction exactly as provided**
+
+These instructions will get this project running on your machine.
 
 1. Make sure that you have node and npm installed. 
 
 ### Setting up the .env
 
-Follow these steps  once the match is live ` : 
+Follow these steps  **once the match is live**  : 
 ```
 1. Go to Cricbuzz website.
 2. Open the live score page of the match you wanna keep an eye on. 
 3. Copy the match id from the address bar as highlighted in the following images. 
 4. Set `match_id` in the `.env` to this value. ( in this case it is 22411 ) .
+
+
+(Optional) If you want to change the alarmtone :
+1. Copy the mp3 file to the project folder.
+2. Modify the `alarmTone` variable in the `.env` file with the path of the mp3 file.
 ```
 
 ![alt text](https://raw.githubusercontent.com/convexhull/swiggy6-coupon-cricbuzz/master/image1.png)
@@ -42,7 +51,6 @@ node server.js
 
 
 ### Disclaimer
-
-Though it works perfect, this project was built hurriedly just for fun, so as the owner of the repo and his friends could order food at low prices ;)
-
-Feel free to contact me for any error(s) or improvement(s) you wanna suggest/point-out.
+Though it works perfect, this project was built for fun so as the owner of the repo and his friends could order food at low prices ;)
+Thus it hasn't been tested for robustness.
+Feel free to contact me for any error(s) or improvement(s) you wanna point out/suggest.

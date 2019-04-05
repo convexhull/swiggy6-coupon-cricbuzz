@@ -5,6 +5,9 @@ const dotenv = require('dotenv');
 
 
 dotenv.config();
+
+
+console.log("Cool ! Will inform you once a 6 is hit in the match");
   
 
 
